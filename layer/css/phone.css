@@ -1,0 +1,50 @@
+/* MOBILE / TABLET ADJUSTMENTS */
+@media screen and (max-width: 1024px) {
+
+  #navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #services {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #clients {
+    gap: 15px;
+  }
+
+  .client-item img {
+    height: 70px;
+  }
+
+  #contact-box form {
+    width: 90%;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero .tagline {
+    font-size: 1.2rem;
+  }
+
+  .hero .desc {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+
+  .h-primary {
+    font-size: 2rem;
+  }
+
+  .h-secondary {
+    font-size: 1.2rem;
+  }
+}
